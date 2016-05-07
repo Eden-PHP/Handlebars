@@ -8,7 +8,11 @@ optimized/refactored/rewritten. If we extended PHP Mustache to fix the
 speeds, we would have extended almost every class and method.
 
 This is the reason we found it prudent to launch another version of this library
-(v5 - 5.0.0) which should be used instead of this.
+`v5 - 5.0.0` which should be used instead of this.
+
+`v5` branch will now be the dev branch for `master` and this 
+branch should no longer merge with `master`. This branch will 
+stay up for those who are actively using this version.
 
 ====
 ![logo](http://eden.openovate.com/assets/images/cloud-social.png) Eden Handlebars
