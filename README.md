@@ -1,3 +1,16 @@
+# DEPRECATION NOTICE
+
+The version of this Handlebars still appears to be slow when dealing with 
+a lot of handlebar variables and sections, though we optimized it as best 
+as we could. We found on the parent level (PHP Mustache) particularly the
+Tokenizer and Engine contains parts which also needed to be 
+optimized/refactored/rewritten. If we extended PHP Mustache to fix the 
+speeds, we would have extended almost every class and method.
+
+This is the reason we found it prudent to launch another version of this library
+(v5 - 5.0.0) which should be used instead of this.
+
+====
 ![logo](http://eden.openovate.com/assets/images/cloud-social.png) Eden Handlebars
 ====
 [![Build Status](https://api.travis-ci.org/Eden-PHP/Handlebars.png)](https://travis-ci.org/Eden-PHP/Handlebars)
